@@ -1,1 +1,1 @@
-nikolaik/python-nodejs:python3.10-nodejs19
+python-3.11.4
