@@ -1,5 +1,5 @@
 {
-    "name": "hbmuzic",
+    "name": "applemuzic",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/b61227af05544deb76a34.jpg",
     "keywords": [
