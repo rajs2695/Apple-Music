@@ -1,7 +1,7 @@
 import asyncio
 import importlib
 
-from keep_alive import keep_alive
+from heartbeat import heartbeat
 
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
@@ -52,5 +52,5 @@ async def init():
 
 
 if __name__ == "__main__":
-    keep_alive()
+    heartbeat()
     asyncio.get_event_loop().run_until_complete(init())
