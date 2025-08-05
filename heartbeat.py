@@ -1,4 +1,4 @@
-# keep_alive.py
+# heartbeat.py
 
 from flask import Flask
 from threading import Thread
@@ -12,7 +12,7 @@ def home():
 def run():
     app.run(host='0.0.0.0', port=10000)
 
-def keep_alive():
+def heartbeat():
     t = Thread(target=run)
     t.daemon = True
     t.start()
